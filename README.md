@@ -5,9 +5,7 @@ This repository contains the source code, datasets and complete results as a sup
 2. NPHR Prediction Results Table
 3. WPPS Weight Percentage Reasoning
 
-# B. Prediction Results Graph
-### Model Experiment Summary
-
+# B. Model Prediction Source Code and Results 
 The following table summarizes the experimental configurations across different datasets and feature engineering scenarios. Each configuration was tested using nine different models (M1–M9) for both **Boiler Efficiency** and **Net Plant Heat Rate (NPHR)**.
 
 | ID | Dataset Source | Description | Feature Engineering | Target Variables | Models |
@@ -22,4 +20,4 @@ The following table summarizes the experimental configurations across different 
 | **b.8** | Dataset 5 (D5) | D2 Selected Features | **Corr** | Boiler Eff, NPHR | M1 – M9 |
 | **b.9** | Dataset 6 (D6) | D3 Selected Features | **EFA** | Boiler Eff, NPHR | M1 – M9 |
 
-> **Note:** Models M1 through M9 represent the different machine learning algorithms used in this study (e.g., XGBoost, Stacking Regressor, etc.).
+> **Note:** Models M1 through M9 represent the different machine learning algorithms used in this study (e.g., XGBoost, Stacking Regressor, etc.). Above tabel to use make file name with code (e.g., b.1 - D1 - Boiler Efficiency - M1. This file used for ID b.1, Dataset 1 (D1), for target Boiler Efficiency and model prediction using M1).
