@@ -1,4 +1,4 @@
-This repository contains the source code and datasets as a supplement to the paper: 'Power Plant Efficiency Prediction Using MrMiMaxG Feature Engineering and Consensus Voting Mechanism'.
+This repository contains the source code, datasets and complete results as a supplement to the paper: 'Power Plant Efficiency Prediction Using MrMiMaxG Feature Engineering and Consensus Voting Mechanism'.
 
 # A. Prediction Results Table
 1. Boiler Efficiency Prediction Results Table
