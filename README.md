@@ -1,53 +1,25 @@
 This repository contains the source code and datasets as a supplement to the paper: 'Power Plant Efficiency Prediction Using MrMiMaxG Feature Engineering and Consensus Voting Mechanism'.
 
-# Prediction Results Table
+# A. Prediction Results Table
 1. Boiler Efficiency Prediction Results Table
 2. NPHR Prediction Results Table
 3. WPPS Weight Percentage Reasoning
 
-# Prediction Results Graph
-## Dataset 1 (D1 : Operational Dataset) without Feature Engineering
-### Boiler Efficiency
-1. Boiler Eff - D1 - No FE - M1
-2. Boiler Eff - D1 - No FE - M2
-3. Boiler Eff - D1 - No FE - M3
-4. Boiler Eff - D1 - No FE - M4
-5. Boiler Eff - D1 - No FE - M5
-6. Boiler Eff - D1 - No FE - M6
-7. Boiler Eff - D1 - No FE - M7
-8. Boiler Eff - D1 - No FE - M8
-9. Boiler Eff - D1 - No FE - M9
+# B. Prediction Results Graph
+### Model Experiment Summary
 
-### NPHR
-1. NPHR - D1 - No FE - M1
-2. NPHR - D1 - No FE - M2
-3. NPHR - D1 - No FE - M3
-4. NPHR - D1 - No FE - M4
-5. NPHR - D1 - No FE - M5
-6. NPHR - D1 - No FE - M6
-7. NPHR - D1 - No FE - M7
-8. NPHR - D1 - No FE - M8
-9. NPHR - D1 - No FE - M9
+The following table summarizes the experimental configurations across different datasets and feature engineering scenarios. Each configuration was tested using nine different models (M1–M9) for both **Boiler Efficiency** and **Net Plant Heat Rate (NPHR)**.
 
-## Dataset 2 (D2 : Emision Dataset) without Feature Engineering
-### Boiler Efficiency
-1. Boiler Eff - D2 - No FE - M1
-2. Boiler Eff - D2 - No FE - M2
-3. Boiler Eff - D2 - No FE - M3
-4. Boiler Eff - D2 - No FE - M4
-5. Boiler Eff - D2 - No FE - M5
-6. Boiler Eff - D2 - No FE - M6
-7. Boiler Eff - D2 - No FE - M7
-8. Boiler Eff - D2 - No FE - M8
-9. Boiler Eff - D2 - No FE - M9
+| ID | Dataset Source | Description | Feature Engineering | Target Variables | Models |
+|:---:|:---|:---|:---:|:---:|:---:|
+| **b.1** | Dataset 1 (D1) | Operational Dataset | None (No FE) | Boiler Eff, NPHR | M1 – M9 |
+| **b.2** | Dataset 2 (D2) | Emission Dataset | None (No FE) | Boiler Eff, NPHR | M1 – M9 |
+| **b.3** | Dataset 3 (D3) | Operational + Emission Dataset | None (No FE) | Boiler Eff, NPHR | M1 – M9 |
+| **b.4** | Dataset 4 (D4) | D1 Selected Features | **MrMiMaxG-CVM** | Boiler Eff, NPHR | M1 – M9 |
+| **b.5** | Dataset 5 (D5) | D2 Selected Features | **MrMiMaxG-CVM** | Boiler Eff, NPHR | M1 – M9 |
+| **b.6** | Dataset 6 (D6) | D3 Selected Features | **MrMiMaxG-CVM** | Boiler Eff, NPHR | M1 – M9 |
+| **b.7** | Dataset 4 (D4) | D1 Selected Features | **EFA** | Boiler Eff, NPHR | M1 – M9 |
+| **b.8** | Dataset 5 (D5) | D2 Selected Features | **Corr** | Boiler Eff, NPHR | M1 – M9 |
+| **b.9** | Dataset 6 (D6) | D3 Selected Features | **EFA** | Boiler Eff, NPHR | M1 – M9 |
 
-### NPHR
-1. NPHR - D2 - No FE - M1
-2. NPHR - D2 - No FE - M2
-3. NPHR - D2 - No FE - M3
-4. NPHR - D2 - No FE - M4
-5. NPHR - D2 - No FE - M5
-6. NPHR - D2 - No FE - M6
-7. NPHR - D2 - No FE - M7
-8. NPHR - D2 - No FE - M8
-9. NPHR - D2 - No FE - M9
+> **Note:** Models M1 through M9 represent the different machine learning algorithms used in this study (e.g., XGBoost, Stacking Regressor, etc.).
