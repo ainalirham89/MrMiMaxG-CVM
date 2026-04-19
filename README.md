@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19633120.svg)](https://doi.org/10.5281/zenodo.19633120)
 
 This repository contains the source code, datasets and complete results as a supplement to the paper: 'Power Plant Efficiency Prediction Using MrMiMaxG Feature Engineering and Consensus Voting Mechanism'.
 
