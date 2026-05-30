@@ -4,9 +4,7 @@ This repository contains the source code, datasets and complete results as a sup
 
 # A. Prediction Results Table
 
-1. Boiler Efficiency Prediction Results Table
-2. NPHR Prediction Results Table
-3. WPPS Weight Percentage Reasoning
+Contain comparison of prediction results including ablation study
 
 # B. Model Prediction Source Code and Results
 
